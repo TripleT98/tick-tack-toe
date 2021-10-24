@@ -1,0 +1,84 @@
+body{
+  display: flex;
+  justify-content: center;
+  background-image: url("tetris.jpg");
+}
+
+table{
+  height: 800px;
+  width: 400px;
+  background-color: Transparent;
+  border-collapse: collapse;
+  border: solid 1px rgb(217, 27, 158);
+}
+td{
+  margin: 2px;
+  border: 1px solid rgba(247, 226, 103, 0.7);
+
+}
+.mode{
+  display: none;
+  text-align: center;
+  margin-top: 0px;
+}
+.mode p{
+  margin-top: 0px;
+  color: rgb(3, 216, 254);
+  font-family: "SEGOE PRINT";
+  font-size: 18px;
+}
+.mode button{
+  margin-right: 20px;
+  font-family: "SEGOE PRINT";
+  font-size: 17px;
+  background-color: Transparent;
+  border: none;
+  color: rgb(3, 216, 254);
+}
+.mode button:hover{
+  transition-duration: 0.5s;
+  background-color: rgba(5, 56, 237,0.7);
+  border-radius: 7px;
+}
+#starter{
+  margin-top: 10px;
+  margin-left: 140px;
+  height: 60px;
+  width: 120px;
+  background-color: Transparent;
+  border: none;
+  color: rgb(3, 216, 254);
+  font-family: "SEGOE PRINT";
+  font-size: 18px;
+}
+#starter:hover{
+  transition-duration: 0.5s;
+  background-color: rgba(5, 56, 237,0.7);
+  border-radius: 30px;
+}
+.scores{
+  font-size: 50px;
+  font-family: "SEGOE PRINT";
+  color: rgb(3, 216, 254);
+  margin-left: 50px;
+}
+#scores{
+  padding-top: 300px;
+}
+
+.restart{
+  color: "black";
+  font-family: "SEGOE PRINT";
+  font-size: 50px;
+  background-color: Transparent;
+  border: none;
+}
+
+.restart button:hover{
+  transition-duration: 0.5s;
+  background-color:rgba(3, 216, 254, .7);
+  border-radius: 10px;
+}
+span{
+  color:white
+}
